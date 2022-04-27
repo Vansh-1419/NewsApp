@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(109, 109, 109);
+}
+.display {
+  background-color: rgb(29, 29, 29);
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 30vh;
+  top: 10vh;
+  position: relative;
+  border-radius: 5vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.display h3 {
+  margin-bottom: 4vh;
+}
+.displayhead {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 3vh;
+}
+.display a {
+  text-decoration: none;
+}
+.display a:hover {
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.news {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  width: 40vh;
+  height: 35vh;
+}
+.imge {
+  display: flex;
+  width: 40%;
+}
+.img {
+  width: 40vh;
+  height: 35vh;
+}
+.content {
+  display: flex;
+}
